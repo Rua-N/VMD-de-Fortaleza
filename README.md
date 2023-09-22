@@ -1,6 +1,6 @@
 <h1>VMD de Fortaleza</h1>
 
-Projeto feito durante a cadeira de Big Data em Python, utiliza um dataset sobre o Volume de tráfego médio mensal (VMD) em Fortaleza, capturado pelos equipamentos de Fiscalização Eletrônica a partir de janeiro de 2017. Com base na análise desses dados através do algoritimo de <i>Machine Learning</i>, nosso objetivo é prever o VMD em diferentes vias, a fim de tomar medidas preventivas contra o congestionamento. 
+Projeto feito durante a cadeira de Big Data em Python, utiliza um dataset sobre o Volume Médio Diário (VMD) em Fortaleza, capturado pelos equipamentos de Fiscalização Eletrônica a partir de janeiro de 2017. Com base na análise desses dados através do algoritimo de <i>Machine Learning</i>, nosso objetivo é prever o VMD em diferentes vias, a fim de tomar medidas preventivas contra o congestionamento. 
 
 <h2>Como Funciona ?🤔 </h2>
 Tratamos os dados separando os em 2 partes:(Longitude, Latidude, Ano, Mês) - (VMD).Após isso, treinamos o algoritimo de <i>Machine Learning</i>, nesse caso o que obtemos maior precisão foi o de <i>Random Forest</i>, com base nisso o código prevê possiveís VMD.
